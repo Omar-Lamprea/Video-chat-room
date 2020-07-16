@@ -202,21 +202,12 @@ body{
   color: white;
   margin: .8em;
 }
-.icon-mic{
+.icon-botton{
   background: #6c757e;
   border-radius: 5px;
   padding: .5em;
 }
-.icon-users{
-  background: #6c757e;
-  border-radius: 5px;
-  padding: .5em;
-}
-.icon-feed{
-  background: #6c757e;
-  border-radius: 5px;
-  padding: .5em;
-}
+
 
 @media screen and (max-width: 1023px){
   .screen-users-9-12 .user{
@@ -224,15 +215,15 @@ body{
   }
 }
 @media screen and (max-width:768px){
-
-.screen-users-2 .user{
-  width: 46.5%;
-}
-.screen-users-3-4 .user{
-  width: 46%;
-}
-.screen-users-9-12 .user{
-  width: 19%;
+  .screen-users-2 .user{
+    width: 46.5%;
+  }
+  .screen-users-3-4 .user{
+    width: 46%;
+  }
+  .screen-users-9-12 .user{
+    width: 19%;
+  }
 }
 @media screen and (max-width: 480px){
   .screen-users-2 .user{
