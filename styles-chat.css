@@ -70,9 +70,10 @@ body{
   display: flex;
   justify-content: flex-end;
   align-items: center;
-
 }
 .icon-enlarge{
+  background-color: inherit;
+  border: none;
   font-size: 25px;
   color: white;
   margin: .2em 1em;
@@ -98,23 +99,34 @@ body{
 }
 .wordpress{
   color: #6c757e;
-  border: 1px solid #d7d7d7;
+  border: none;
   border-radius: 5px;
   padding: .5em 1em;
   background-color: #d7d7d7;
   margin: 1.5em 0;
 }
+.wordpress:hover{
+  cursor: pointer;
+  background-color: #b7b7b7;
+}
 .leave-meeting{
   color: white;
-  border: 1px solid #d94964;
+  border: none;
   border-radius: 5px;
   padding: .5em 1em;
   background-color: #d94964;
   margin: 1.5em .5em;
 }
+.leave-meeting:hover{
+  cursor: pointer;
+  background-color: #bb3d55;
+}
+
 .icon-cog{
   font-size: 30px;
   color: #6c757e;
+  background-color: inherit;
+  border: none;
 }
 
 
@@ -197,16 +209,28 @@ body{
   justify-content: center;
   align-items: center;
 }
-.buttons-botton{
-  font-size: 30px;
-  color: white;
-  margin: .8em;
+.button-bottons{
+  display: grid;
+  text-align: center;
+  /* font-size: 10px; */
+  color: #6c757e;
+  margin: 0 .5em;
 }
-.icon-botton{
+.icon-bottons{
   background: #6c757e;
   border-radius: 5px;
-  padding: .5em;
+  padding: 1em;
+  border: none;
 }
+.icon-bottons:hover{
+  cursor: pointer;
+  background-color: #5c6167;
+}
+.icon-botton{
+  color: white;
+  font-size: 3em;
+}
+
 
 
 @media screen and (max-width: 1023px){
@@ -233,23 +257,23 @@ body{
     width: 44%;
   }
   .buttons-botton{
-    font-size: 25px;
+    /* font-size: 25px; */
   }
 }
 @media screen and (max-width: 320px){
-  .buttons-botton{
+  /* .button-bottons{
     font-size: 18px;
-  }
+  } */
 }
-@media screen and (max-height: 480px){
+@media screen and (max-height: 567px){
   .wordpress, .leave-meeting{
     padding: 0.3em;
   }
   .icon-cog{
     font-size: 16px;
   }
-  .buttons-botton{
-    font-size: 18px;
+  .button-bottons{
+    /* font-size: 18px; */
   }
   .icon-enlarge{
     font-size: 16px;
@@ -258,7 +282,11 @@ body{
   .screen-users-3-4 .user{
     padding: 0.03em 0.1em;
   }
-  .buttons-botton{
-    font-size: 20px;
+  .icon-bottons{
+    padding: .5em;
+    font-size: .5em;
+  }
+  .button-bottons{
+    /* font-size: 20px; */
   }
 }
