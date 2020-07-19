@@ -5,11 +5,14 @@
     <title>Video-chat-room</title>
     <link rel="stylesheet" href="styles-chat.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://kit.fontawesome.com/893a0473db.js" crossorigin="anonymous"></script>
   </head>
   <body>
     <section class="container">
       <div class="header">
-        <button class="icon-enlarge"></button>
+        <button class="enlarge">
+          <i class="fas fa-expand-arrows-alt"></i>
+        </button>
       </div>
       <div class="content">
         <div class="buttons-top">
@@ -22,7 +25,9 @@
             <button class= "leave-meeting">
               Leave Meeting
             </button>
-            <button class="icon-cog"></button>
+            <button class="cog">
+              <i class="fas fa-cog"></i>
+            </button>
           </div>
         </div>
         <div class="screen">
@@ -69,21 +74,39 @@
       <div class="footer">
         <div class="button-bottons">
           <button class="icon-bottons">
-            <i class="icon-mic icon-botton"></i>
+            <i class="fas fa-microphone"></i>
           </button>
           <small>Mic</small>
         </div>
         <div class="button-bottons">
           <button class="icon-bottons">
-            <i class="icon-users icon-botton"></i>
+            <i class="fas fa-video"></i>
+          </button>
+          <small>Camera</small>
+        </div>
+        <!-- <div class="button-bottons">
+          <button class="icon-bottons">
+            <i class="fas fa-desktop"></i>
+          </button>
+          <small>Share</small>
+        </div> -->
+        <div class="button-bottons">
+          <button class="icon-bottons">
+            <i class="fas fa-users"></i>
           </button>
           <small>Participants</small>
         </div>
-        <div class="button-bottons">
+        <!-- <div class="button-bottons">
           <button class="icon-bottons">
-            <i class="icon-feed icon-botton"></i>
+            <i class="fas fa-record-vinyl"></i>
           </button>
           <small>Record</small>
+        </div> -->
+        <div class="button-bottons">
+          <button class="icon-bottons">
+            <i class="fas fa-comment-alt"></i>
+          </button>
+          <small>Chat</small>
         </div>
       </div>
     </section>
