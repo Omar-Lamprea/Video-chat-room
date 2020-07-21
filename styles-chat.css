@@ -159,6 +159,11 @@ body{
   justify-content: center;
   align-items: center;
 }
+.line{
+  border: 1px solid #45484a;
+  margin: 0 .5em;
+  padding-top: 5em;
+}
 .button-bottons{
   display: grid;
   text-align: center;
@@ -207,11 +212,20 @@ body{
   .icon-bottons{
     font-size: 1em;
   }
+  .button-bottons{
+    margin: 0 0.2em;
+  }
+  .line{
+    padding-top: 2.5em;
+  }
 }
 @media screen and (max-width: 320px){
-  /* .button-bottons{
-    font-size: 18px;
-  } */
+  .button-bottons{
+    margin: 0 0.1em;
+  }
+  .line{
+    padding-top: 2em;
+  }
 }
 @media screen and (max-height: 567px){
   .wordpress, .leave-meeting{
@@ -236,5 +250,8 @@ body{
   }
   .button-bottons{
     /* font-size: 20px; */
+  }
+  .line{
+    padding-top: 2.5em;
   }
 }
